@@ -1,0 +1,101 @@
+Pull Ticker, ArbDetect and Pull Orderbook (From USDT):
+3512495 microseconds
+3555046 microseconds
+3708147 microseconds
+
+5-Path serial arbirtage detector (USDT):
+1135686 microseconds
+1126452 microseconds
+1126452 microseconds
+
+5-Path slightly parallel arb detector (USDT):
+332959 microseconds
+251890 microseconds
+255589 microseconds
+188364 microseconds
+123132 microseconds
+
+4-Path serial arbirtage detector (USDT):
+65227 microseconds
+63268 microseconds
+64293 microseconds
+
+4-Path parallel arb detector (USDT):
+9707 microseconds
+8456 microseconds
+9933 microseconds
+
+3-Path serial arbritage detector (USDT):
+771 microseconds
+802 microseconds
+778 microseconds
+
+3-Path parallel arb detector (USDT):
+4708 microseconds
+3397 microseconds
+8529 microseconds
+
+Destroy and Recreate Graph gateio time:
+2244115 microseconds
+2192950 microseconds
+2250641 microseconds
+
+
+Update the graph gateio time:
+2127464 microseconds
+2197382 microseconds
+1998020 microseconds
+
+
+Destroy and Recreate Graph all exchanges time (10 iterations):
+19805107 microseconds
+20957517 microseconds
+21514038 microseconds
+
+
+Update the graph all exchanges time (10 iterations):
+22304184
+22949285
+24215379
+
+Update the graph all exchanges time (10 iterations; exclude set graph time):
+22429368
+21704841
+21748287
+
+
+
+
+From Parse to add to graph time:
+969 microseconds
+1004 microseconds
+1032 microseconds
+
+Curl time:
+1346582 microseconds
+1341916 microseconds
+1330167 microseconds
+
+
+JSON_pare time:
+34491 microseconds
+17585 microseconds
+16379 microseconds
+25111 microseconds
+
+
+
+
+sequential API pull/parse/update times:
+9.626 seconds
+9.648 seconds
+9.711 seconds
+9.377 seconds
+9.228 seconds
+
+Parallel API pull/parse/update times:
+2.164 seconds
+2.010 seconds
+1.990 seconds
+2.106 seconds
+2.166 seconds
